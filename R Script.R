@@ -1,9 +1,3 @@
-#_______________ GROUP 1 DATA ANALYTICS PROJECT R SCRIPTS_______________________
-#
-#-------------------------Peter's R Scripts-------------------------------------
-#
-# deal status KNN 2.R
-#
 #...........................BEGIN SCRIPT........................................
 library(readxl)
 data <- read_excel("cleaned data.xlsx") # load data
@@ -163,7 +157,6 @@ print(t)
 acc <- (t[1,1]+t[2,2])/sum(t)
 #............................END SCRIPT.........................................
 #
-#-----------------------Unmesh's R Scripts--------------------------------------
 #
 # Naive Bayes
 #
